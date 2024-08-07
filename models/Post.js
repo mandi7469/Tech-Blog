@@ -1,3 +1,4 @@
+//imports
 const { Model, DataTypes } = require("sequelize");
 const sequelize = require("../config/connection");
 
@@ -36,4 +37,5 @@ Post.init(
   }
 );
 
+//exports post model
 module.exports = Post;

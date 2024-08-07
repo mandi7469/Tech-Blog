@@ -1,3 +1,4 @@
+//imports
 const { Model, DataTypes } = require("sequelize");
 const sequelize = require("../config/connection");
 
@@ -41,4 +42,5 @@ Comment.init(
   }
 );
 
+// exports comment model
 module.exports = Comment;
