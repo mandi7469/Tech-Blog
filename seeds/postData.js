@@ -2,7 +2,7 @@ const { Post } = require("../models");
 
 const postData = [
   {
-    title: "We were on a break!",
+    title: "We were NOT on a break!",
     content:
       "I wrote 18 pages front to back and Ross fell asleep reading it! I cannot believe I even thought about getting back together with him. WE ARE SO OVER.",
     user_id: 1,
