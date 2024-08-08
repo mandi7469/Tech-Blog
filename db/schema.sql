@@ -1,5 +1,8 @@
 -- DROP DATABASE
-DROP DATABASE IF EXISTS techBlog_db;
+DROP DATABASE IF EXISTS techblog_db;
 
 -- CREATE DATABASE
-CREATE DATABASE techBlog_db;
+CREATE DATABASE techblog_db;
+
+-- Uses the techblog_db database –
+\c techblog_db;
